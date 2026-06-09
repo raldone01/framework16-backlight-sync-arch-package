@@ -1,0 +1,15 @@
+pkgbase = framework16-backlight-sync-git
+pkgdesc = Framework 16 keyboard/numpad backlight sync daemon
+pkgver = r3.ff40612
+pkgrel = 1
+url = https://github.com/MiguelAgueda/framework16-backlight-sync
+arch = any
+license = MIT
+makedepends = git
+depends = python
+provides = framework16-backlight-sync
+conflicts = framework16-backlight-sync
+source = framework16-backlight-sync::git+https://github.com/MiguelAgueda/framework16-backlight-sync.git
+sha256sums = SKIP
+
+pkgname = framework16-backlight-sync-git
